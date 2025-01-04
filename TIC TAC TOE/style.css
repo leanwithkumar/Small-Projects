@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(gamepicture.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.headings {
+    margin-top: 5px;
+    padding: 20px;
+    font-size: 8ch;
+    color: #5A4FCF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vmin;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 10vmin;
+    background: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#reset {
+
+    padding: 1rem;
+    font-size: 1rem;
+    background: linear-gradient(to bottom right, #a8c0ff, #3f2b96);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#newgame {
+    margin-top: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    background: linear-gradient(to bottom right, #a8c0ff, #3f2b96);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#msg {
+    color: gold;
+    font-size: 9vmin;
+
+}
+
+.messagecontainer {
+    height: 12vmin;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.unseen {
+    display: none;
+}
