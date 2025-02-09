@@ -1,3 +1,3 @@
 # Small-Projects
 
-This Repository have some of the minor projects that I made while learning web development.
+This repository contains some of the minor projects that I built while learning web development.
